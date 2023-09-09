@@ -1,0 +1,611 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Style the navigation bar */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style the search bar */
+#search-bar {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Style the job posting form */
+#job-posting-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+form input[type="text"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Style user profile */
+#user-profile {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#user-profile img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+/* Style job applications and saved jobs */
+#job-applications,
+#saved-jobs {
+    margin: 20px 0;
+}
+
+/* Style edit profile form */
+#edit-profile {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Style notifications */
+#notifications {
+    margin: 20px 0;
+}
+
+/* Style logout button */
+#logout button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Style search filters */
+#search-filters {
+    margin: 20px 0;
+}
+
+/* Style job listings */
+#job-listings {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.job-card {
+    width: calc(33.33% - 20px);
+    margin: 0 10px 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+/* Style pagination */
+#pagination {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#pagination button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Style featured jobs section */
+#featured-jobs {
+    margin: 20px 0;
+}
+
+/* Style job categories section */
+#job-categories {
+    margin: 20px 0;
+}
+
+/* Style user actions section */
+#user-actions {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#user-actions a {
+    color: #333;
+    text-decoration: none;
+}
+
+#user-actions a:hover {
+    text-decoration: underline;
+}
+/* Style individual job cards */
+.job-card {
+    width: calc(33.33% - 20px);
+    margin: 0 10px 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+.job-card h2 {
+    font-size: 1.2rem;
+}
+
+.job-card p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+/* Style pagination */
+#pagination {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#pagination button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#pagination button:hover {
+    background-color: #555;
+}
+
+
+
+/* Reset some default styles to start with a clean slate */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+/* Navigation menu styling */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Search bar styling */
+#search-bar {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#search-bar input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#search-bar button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Featured job listings styling */
+#featured-jobs {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.job-listing {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.job-listing h3 {
+    font-size: 20px;
+}
+
+/* Job categories styling */
+#job-categories {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#job-categories ul {
+    list-style: none;
+}
+
+#job-categories ul li {
+    margin-bottom: 10px;
+}
+
+#job-categories ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+/* User actions styling */
+#user-actions {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#user-actions a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#user-actions a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Reset some default styles to start with a clean slate */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+/* Navigation menu styling */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Search filters styling */
+#search-filters {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Job listings styling */
+#job-listings {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.job-card {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.job-card h3 {
+    font-size: 20px;
+}
+
+/* Pagination styling */
+#pagination {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#prev-button,
+#next-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#page-number {
+    font-size: 16px;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+#prev-button[disabled],
+#next-button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+
+
+/* Reset some default styles to start with a clean slate */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+/* Navigation menu styling */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* User profile styling */
+#user-profile {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#user-profile h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#user-profile p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Job applications styling */
+#job-applications {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#job-applications h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.job-application {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.job-application h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Saved jobs styling */
+#saved-jobs {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#saved-jobs h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.saved-job {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.saved-job h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Edit profile form styling */
+#edit-profile {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#edit-profile h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#edit-profile form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+
+#edit-profile label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#edit-profile input[type="text"],
+#edit-profile input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size:

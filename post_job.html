@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jobs Board - Post a Job</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Post a Job</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="job_listings.html">Job Listings</a></li>
+                <li><a href="post_job.html">Post a Job</a></li>
+                <li><a href="user_dashboard.html">User Dashboard</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="job-posting-form">
+        <form>
+            <label for="job-title">Job Title:</label>
+            <input type="text" id="job-title" name="job-title" required>
+
+            <label for="job-description">Job Description:</label>
+            <textarea id="job-description" name="job-description" rows="4" required></textarea>
+
+            <label for="job-location">Location:</label>
+            <input type="text" id="job-location" name="job-location" required>
+
+            <label for="job-category">Category:</label>
+            <select id="job-category" name="job-category" required>
+                <option value="IT & Software">IT & Software</option>
+                <option value="Marketing">Marketing</option>
+                <option value="Finance">Finance</option>
+                <option value="IT Specialist">IT Specialist</option>
+                <option value="Others">Others</option>
+                <!-- Add more categories as needed -->
+            </select>
+
+            <label for="job-requirements">Requirements:</label>
+            <textarea id="job-requirements" name="job-requirements" rows="4" required></textarea>
+
+            <label for="application-deadline">Application Deadline:</label>
+            <input type="date" id="application-deadline" name="application-deadline" required>
+
+            <label for="company-name">Company Name:</label>
+            <input type="text" id="company-name" name="company-name" required>
+
+            <label for="company-logo">Company Logo:</label>
+            <input type="file" id="company-logo" name="company-logo" accept="image/*">
+
+            <label for="company-website">Company Website:</label>
+            <input type="url" id="company-website" name="company-website" placeholder="http://www.example.com">
+
+            <button type="submit">Submit Job</button>
+        </form>
+    </section>
+    <!-- Rest of your post a job page content goes here -->
+<section id="additional-info">
+    <h2>Additional Information</h2>
+    <p>Fill in the following details to post your job:</p>
+    <ul>
+        <li>Provide clear and concise job title and description.</li>
+        <li>Select the appropriate category for your job.</li>
+        <li>List the required qualifications and skills for applicants.</li>
+        <li>Set an application deadline for potential candidates.</li>
+        <li>Include your company's name and logo.</li>
+        <li>Provide a link to your company's website.</li>
+    </ul>
+</section>
+<section id="preview-job">
+    <h2>Preview Job Listing</h2>
+    <div id="preview-container">
+        <h3 id="preview-title">Job Title: <span></span></h3>
+        <p id="preview-description">Job Description: <span></span></p>
+        <p id="preview-location">Location: <span></span></p>
+        <p id="preview-category">Category: <span></span></p>
+        <p id="preview-requirements">Requirements: <span></span></p>
+        <p id="preview-deadline">Application Deadline: <span></span></p>
+        <p id="preview-company">Company Name: <span></span></p>
+        <p id="preview-website">Company Website: <a href="" target="_blank"><span></span></a></p>
+    <div id="preview-container">
+        <!-- Preview content will be displayed here -->
+    </div>
+</section>
+
+<script>
+    // JavaScript to update the preview based on user input
+    const form = document.querySelector('form');
+    const previewTitle = document.querySelector('#preview-title span');
+    const previewDescription = document.querySelector('#preview-description span');
+    const previewLocation = document.querySelector('#preview-location span');
+    const previewCategory = document.querySelector('#preview-category span');
+    const previewRequirements = document.querySelector('#preview-requirements span');
+    const previewDeadline = document.querySelector('#preview-deadline span');
+    const previewCompany = document.querySelector('#preview-company span');
+    const previewWebsite = document.querySelector('#preview-website span');
+    const previewLogo = document.querySelector('#preview-logo');
+
+    form.addEventListener('input', updatePreview);
+
+    function updatePreview() {
+        previewTitle.textContent = form['job-title'].value;
+        previewDescription.textContent = form['job-description'].value;
+        previewLocation.textContent = form['job-location'].value;
+        previewCategory.textContent = form['job-category'].value;
+        previewRequirements.textContent = form['job-requirements'].value;
+        previewDeadline.textContent = form['application-deadline'].value;
+        previewCompany.textContent = form['company-name'].value;
+        previewWebsite.textContent = form['company-website'].value;
+        previewWebsite.href = form['company-website'].value;
+
+        // You can handle the company logo here, e.g., display an uploaded image.
+    }
+
+    // Initial update
+    updatePreview();
+</script>
+
+</body>
+</html>
