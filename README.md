@@ -18,10 +18,6 @@
 11.A Company or Organization post their New Job<br>
 12.To Provide the information resume and interview tips<br>
 13.Job holder easily find candidate.<br>
-
-Note:
-1.Get More details About This Project Visit This Site:https://sites.google.com/diu.edu.bd/jobsfinder/home<br>
-1.Project Functionality:https://www.youtube.com/watch?v=HTagd83rF0Y
                                                                   
 
 
